@@ -1,0 +1,530 @@
+{
+  "feature_count": 1399,
+  "geometry_types": {
+    "POINT": 1276,
+    "POLYGON": 123
+  },
+  "bbox": [
+    28.874371,
+    -2.8220843,
+    30.8255863,
+    -1.1254176
+  ],
+  "columns": [
+    {
+      "name": "id",
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_percent": 0.0,
+      "distinct_count": 1399,
+      "top_values": []
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR",
+      "null_count": 61,
+      "null_percent": 4.36,
+      "distinct_count": 1245,
+      "top_values": []
+    },
+    {
+      "name": "name_en",
+      "type": "VARCHAR",
+      "null_count": 606,
+      "null_percent": 43.32,
+      "distinct_count": 724,
+      "top_values": [
+        {
+          "value": "Gatare Health Centre",
+          "count": 3
+        },
+        {
+          "value": "Nyamiyaga Health Centre",
+          "count": 3
+        },
+        {
+          "value": "Nyundo Health Centre",
+          "count": 3
+        },
+        {
+          "value": "Karambo Health Centre",
+          "count": 3
+        },
+        {
+          "value": "Health Centre",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "name_rw",
+      "type": "VARCHAR",
+      "null_count": 1326,
+      "null_percent": 94.78,
+      "distinct_count": 71,
+      "top_values": [
+        {
+          "value": "FARUMASI UBWIZA N'UBUZIMA",
+          "count": 2
+        },
+        {
+          "value": "ADVANCED PHARMACY",
+          "count": 2
+        },
+        {
+          "value": "Ibitaro by'akarere bya Nyabikenke",
+          "count": 1
+        },
+        {
+          "value": "ELON PHARMACY",
+          "count": 1
+        },
+        {
+          "value": "FARUMASI Y'INZOBERE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "name_fr",
+      "type": "VARCHAR",
+      "null_count": 1247,
+      "null_percent": 89.14,
+      "distinct_count": 148,
+      "top_values": [
+        {
+          "value": "ADVANCED PHARMACY",
+          "count": 2
+        },
+        {
+          "value": "H\u00f4pital de Nemba",
+          "count": 2
+        },
+        {
+          "value": "H\u00f4pital de Kibogora",
+          "count": 2
+        },
+        {
+          "value": "Clinic des grands lacs",
+          "count": 2
+        },
+        {
+          "value": "Teva",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "amenity",
+      "type": "VARCHAR",
+      "null_count": 17,
+      "null_percent": 1.22,
+      "distinct_count": 7,
+      "top_values": [
+        {
+          "value": "hospital",
+          "count": 769
+        },
+        {
+          "value": "pharmacy",
+          "count": 488
+        },
+        {
+          "value": "clinic",
+          "count": 104
+        },
+        {
+          "value": "doctors",
+          "count": 16
+        },
+        {
+          "value": "dentist",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "building",
+      "type": "VARCHAR",
+      "null_count": 1385,
+      "null_percent": 99.0,
+      "distinct_count": 3,
+      "top_values": [
+        {
+          "value": "yes",
+          "count": 11
+        },
+        {
+          "value": "hospital",
+          "count": 2
+        },
+        {
+          "value": "commercial",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "healthcare",
+      "type": "VARCHAR",
+      "null_count": 1107,
+      "null_percent": 79.13,
+      "distinct_count": 12,
+      "top_values": [
+        {
+          "value": "pharmacy",
+          "count": 132
+        },
+        {
+          "value": "hospital",
+          "count": 119
+        },
+        {
+          "value": "clinic",
+          "count": 20
+        },
+        {
+          "value": "laboratory",
+          "count": 7
+        },
+        {
+          "value": "centre",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "healthcare_speciality",
+      "type": "VARCHAR",
+      "null_count": 1382,
+      "null_percent": 98.78,
+      "distinct_count": 10,
+      "top_values": [
+        {
+          "value": "general",
+          "count": 8
+        },
+        {
+          "value": "emergency",
+          "count": 1
+        },
+        {
+          "value": "ophthalmology",
+          "count": 1
+        },
+        {
+          "value": "homeopathy",
+          "count": 1
+        },
+        {
+          "value": "abortion;allergology;acupuncture;anaesthetics;applied_kinesiology;cardiology;clinical_pathology;dermatology;emergency;fertility;diagnostic_radiology;endocrinology;gastroenterology;gynaecology;hepatology;haematology;infectious_diseases;intensive;internal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "operator_type",
+      "type": "VARCHAR",
+      "null_count": 1380,
+      "null_percent": 98.64,
+      "distinct_count": 4,
+      "top_values": [
+        {
+          "value": "private",
+          "count": 10
+        },
+        {
+          "value": "public",
+          "count": 7
+        },
+        {
+          "value": "government_facility-public",
+          "count": 1
+        },
+        {
+          "value": "government",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "capacity_persons",
+      "type": "VARCHAR",
+      "null_count": 1399,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "addr_full",
+      "type": "VARCHAR",
+      "null_count": 1399,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "addr_city",
+      "type": "VARCHAR",
+      "null_count": 1388,
+      "null_percent": 99.21,
+      "distinct_count": 7,
+      "top_values": [
+        {
+          "value": "Kigali",
+          "count": 4
+        },
+        {
+          "value": "Rwamagana",
+          "count": 2
+        },
+        {
+          "value": "Murambi",
+          "count": 1
+        },
+        {
+          "value": "Gahini",
+          "count": 1
+        },
+        {
+          "value": "Kigali city",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "source",
+      "type": "VARCHAR",
+      "null_count": 1399,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm0_pcode",
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_percent": 0.0,
+      "distinct_count": 1,
+      "top_values": [
+        {
+          "value": "RWA",
+          "count": 1399
+        }
+      ]
+    },
+    {
+      "name": "adm0_name",
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_percent": 0.0,
+      "distinct_count": 1,
+      "top_values": [
+        {
+          "value": "Rwanda",
+          "count": 1399
+        }
+      ]
+    },
+    {
+      "name": "adm1_pcode",
+      "type": "VARCHAR",
+      "null_count": 23,
+      "null_percent": 1.64,
+      "distinct_count": 5,
+      "top_values": [
+        {
+          "value": "RW1",
+          "count": 573
+        },
+        {
+          "value": "RW3",
+          "count": 225
+        },
+        {
+          "value": "RW2",
+          "count": 223
+        },
+        {
+          "value": "RW5",
+          "count": 188
+        },
+        {
+          "value": "RW4",
+          "count": 167
+        }
+      ]
+    },
+    {
+      "name": "adm1_name",
+      "type": "VARCHAR",
+      "null_count": 23,
+      "null_percent": 1.64,
+      "distinct_count": 5,
+      "top_values": [
+        {
+          "value": "Kigali City",
+          "count": 573
+        },
+        {
+          "value": "Western Province",
+          "count": 225
+        },
+        {
+          "value": "Southern Province",
+          "count": 223
+        },
+        {
+          "value": "Eastern Province",
+          "count": 188
+        },
+        {
+          "value": "Northern Province",
+          "count": 167
+        }
+      ]
+    },
+    {
+      "name": "adm2_pcode",
+      "type": "VARCHAR",
+      "null_count": 23,
+      "null_percent": 1.64,
+      "distinct_count": 30,
+      "top_values": [
+        {
+          "value": "RW12",
+          "count": 328
+        },
+        {
+          "value": "RW13",
+          "count": 156
+        },
+        {
+          "value": "RW11",
+          "count": 89
+        },
+        {
+          "value": "RW42",
+          "count": 49
+        },
+        {
+          "value": "RW24",
+          "count": 49
+        }
+      ]
+    },
+    {
+      "name": "adm2_name",
+      "type": "VARCHAR",
+      "null_count": 23,
+      "null_percent": 1.64,
+      "distinct_count": 30,
+      "top_values": [
+        {
+          "value": "Gasabo",
+          "count": 328
+        },
+        {
+          "value": "Kicukiro",
+          "count": 156
+        },
+        {
+          "value": "Nyarugenge",
+          "count": 89
+        },
+        {
+          "value": "Gakenke",
+          "count": 49
+        },
+        {
+          "value": "Huye",
+          "count": 49
+        }
+      ]
+    },
+    {
+      "name": "adm3_pcode",
+      "type": "VARCHAR",
+      "null_count": 23,
+      "null_percent": 1.64,
+      "distinct_count": 336,
+      "top_values": [
+        {
+          "value": "RW1204",
+          "count": 85
+        },
+        {
+          "value": "RW1213",
+          "count": 80
+        },
+        {
+          "value": "RW1109",
+          "count": 57
+        },
+        {
+          "value": "RW1306",
+          "count": 52
+        },
+        {
+          "value": "RW1209",
+          "count": 51
+        }
+      ]
+    },
+    {
+      "name": "adm3_name",
+      "type": "VARCHAR",
+      "null_count": 23,
+      "null_percent": 1.64,
+      "distinct_count": 312,
+      "top_values": [
+        {
+          "value": "Gisozi",
+          "count": 85
+        },
+        {
+          "value": "Remera",
+          "count": 84
+        },
+        {
+          "value": "Nyarugenge",
+          "count": 58
+        },
+        {
+          "value": "Kicukiro",
+          "count": 52
+        },
+        {
+          "value": "Kimironko",
+          "count": 51
+        }
+      ]
+    },
+    {
+      "name": "adm4_pcode",
+      "type": "VARCHAR",
+      "null_count": 1399,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "adm4_name",
+      "type": "VARCHAR",
+      "null_count": 1399,
+      "null_percent": 100.0,
+      "distinct_count": 0,
+      "top_values": []
+    },
+    {
+      "name": "name_latin",
+      "type": "VARCHAR",
+      "null_count": 61,
+      "null_percent": 4.36,
+      "distinct_count": 1247,
+      "top_values": []
+    }
+  ],
+  "summary": "1,399 features. geometry types: 1,276 POINT, 123 POLYGON. 12 of 25 columns are >=50% null (name_rw, name_fr, building, healthcare, healthcare_speciality, operator_type, capacity_persons, addr_full, addr_city, source, adm4_pcode, adm4_name).",
+  "temporal": null
+}
